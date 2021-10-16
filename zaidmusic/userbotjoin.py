@@ -101,7 +101,7 @@ async def addcchannel(client, message):
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "🤖: i joined here as you requested")
+        await USER.send_message(message.chat.id, "🤖: waan imid waliba adiga dartaada")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>helper already in your channel</b>",
